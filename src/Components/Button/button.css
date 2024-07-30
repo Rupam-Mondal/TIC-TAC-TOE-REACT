@@ -2,6 +2,10 @@
 .section{
     height: 30%;
     width: 32%;
-    background-color: aliceblue;
+    background-color: rgb(83, 162, 231);
+    color: yellow;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
+    border-radius: 15px;
 }
