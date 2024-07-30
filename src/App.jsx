@@ -1,63 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Button from './Components/Button/Button'
+import Board from './Components/Board/Board'
 
 function App() {
-  const [turnx , setTurn] = useState(true)
-  const [text, setText] = useState('')
-  function Toggle() {
-    if (turnx == true) {
-      setText('X')
-      setTurn(false)
-    }
-    else {
-      setText('O')
-      setTurn(true)
-    }
-  }
 
   return (
     <>
-      <div className='w-screen h-screen bg-pink-200 flex justify-center items-center'>
-        <div className='Board flex flex-wrap justify-between'>
-          <Button
-          btntext={text}
-            onclickhandler={Toggle}
-          />
-          <Button
-            btntext={text}
-            onclickhandler={Toggle}
-          />
-          <Button
-            btntext={text}
-            onclickhandler={Toggle}
-          
-          />
-          <Button
-            btntext={text}
-            onclickhandler={Toggle}
-          />
-          <Button
-            btntext={text}
-            onclickhandler={Toggle}
-          />
-          <Button
-          btntext={text}
-            onclickhandler={Toggle}
-           />
-          <Button
-          btntext={text}
-            onclickhandler={Toggle}
-           />
-          <Button
-          btntext={text}
-            onclickhandler={Toggle}
-           />
-          <Button
-          btntext={text}
-            onclickhandler={Toggle}
-           />
-        </div>
+      <div className='w-screen h-screen bg-slate-600 flex justify-center items-center'>
+        <Board/>
       </div>
     </>
   )
