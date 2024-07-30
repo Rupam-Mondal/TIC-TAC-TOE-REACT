@@ -1,0 +1,8 @@
+.Board{
+    background-color: rgb(143, 143, 219);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
