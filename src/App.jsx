@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='w-screen h-screen bg-slate-600 flex justify-center items-center'>
+      <div className='w-screen h-screen bg-slate-600 flex justify-center items-center flex-col'>
         <Board/>
       </div>
     </>
