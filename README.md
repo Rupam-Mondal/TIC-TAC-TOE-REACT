@@ -1,5 +1,8 @@
 # Tic Tac Toe Game in React
+## Demo
+- [click here](https://66ac4b9d882592b6e26a86e9--profound-halva-c02ece.netlify.app/)
 
+## Description
 This is a simple implementation of the classic Tic Tac Toe game using React. It allows two players to take turns marking X and O on a 3x3 grid until one player wins or the game ends in a draw.
 
 ## Installation
